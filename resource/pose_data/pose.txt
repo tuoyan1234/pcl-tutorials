@@ -1,0 +1,39 @@
+a~b:时间戳1766476395.213
+b~c:
+	rtk_pose.x
+	rtk_pose.y
+	rtk_pose.z
+	message_pose.x
+	message_pose.y
+	message_pose.z
+	message_pose.roll
+	message_pose.pitch
+	message_pose.yaw
+	message_pose_covariance
+
+
+
+a1766476395213b0.562757
+5.397068
+-0.094988
+1.133828
+4.854419
+-0.616565
+0.008518
+-0.048241
+2.386932
+0.086432
+c
+
+
+a1766476395313b0.484102
+5.435631
+-0.102211
+1.075272
+4.912158
+-0.620986
+0.029640
+-0.044934
+2.434984
+0.088289
+c

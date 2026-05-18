@@ -1,4 +1,4 @@
-# Install script for directory: /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials
+# Install script for directory: /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -38,9 +38,9 @@ pcl/common/transforms.h
 iostream
 -
 
-/home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/src/3_PC_distortion_correction.cpp
+/home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/src/3_PC_distortion_correction.cpp
 1_read_write.h
-/home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/src/1_read_write.h
+/home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/src/1_read_write.h
 Eigen/Dense
 -
 iostream

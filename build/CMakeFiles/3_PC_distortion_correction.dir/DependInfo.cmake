@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/src/3_PC_distortion_correction.cpp" "/home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build/CMakeFiles/3_PC_distortion_correction.dir/src/3_PC_distortion_correction.cpp.o"
+  "/home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/src/3_PC_distortion_correction.cpp" "/home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build/CMakeFiles/3_PC_distortion_correction.dir/src/3_PC_distortion_correction.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -122,7 +122,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/2_point_normal.dir/DependInfo.cmake"
   "CMakeFiles/3_PC_distortion_correction.dir/DependInfo.cmake"
-  "CMakeFiles/1_READ_WRITE_POINT.dir/DependInfo.cmake"
   )

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials
+CMAKE_SOURCE_DIR = /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build
+CMAKE_BINARY_DIR = /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build/CMakeFiles /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build/CMakeFiles /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 2_point_normal
-
-# Build rule for target.
-2_point_normal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2_point_normal
-.PHONY : 2_point_normal
-
-# fast build rule for target.
-2_point_normal/fast:
-	$(MAKE) -f CMakeFiles/2_point_normal.dir/build.make CMakeFiles/2_point_normal.dir/build
-.PHONY : 2_point_normal/fast
-
-#=============================================================================
 # Target rules for targets named 3_PC_distortion_correction
 
 # Build rule for target.
@@ -135,73 +122,6 @@ depend:
 3_PC_distortion_correction/fast:
 	$(MAKE) -f CMakeFiles/3_PC_distortion_correction.dir/build.make CMakeFiles/3_PC_distortion_correction.dir/build
 .PHONY : 3_PC_distortion_correction/fast
-
-#=============================================================================
-# Target rules for targets named 1_READ_WRITE_POINT
-
-# Build rule for target.
-1_READ_WRITE_POINT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1_READ_WRITE_POINT
-.PHONY : 1_READ_WRITE_POINT
-
-# fast build rule for target.
-1_READ_WRITE_POINT/fast:
-	$(MAKE) -f CMakeFiles/1_READ_WRITE_POINT.dir/build.make CMakeFiles/1_READ_WRITE_POINT.dir/build
-.PHONY : 1_READ_WRITE_POINT/fast
-
-src/1_read_write.o: src/1_read_write.cpp.o
-
-.PHONY : src/1_read_write.o
-
-# target to build an object file
-src/1_read_write.cpp.o:
-	$(MAKE) -f CMakeFiles/1_READ_WRITE_POINT.dir/build.make CMakeFiles/1_READ_WRITE_POINT.dir/src/1_read_write.cpp.o
-.PHONY : src/1_read_write.cpp.o
-
-src/1_read_write.i: src/1_read_write.cpp.i
-
-.PHONY : src/1_read_write.i
-
-# target to preprocess a source file
-src/1_read_write.cpp.i:
-	$(MAKE) -f CMakeFiles/1_READ_WRITE_POINT.dir/build.make CMakeFiles/1_READ_WRITE_POINT.dir/src/1_read_write.cpp.i
-.PHONY : src/1_read_write.cpp.i
-
-src/1_read_write.s: src/1_read_write.cpp.s
-
-.PHONY : src/1_read_write.s
-
-# target to generate assembly for a file
-src/1_read_write.cpp.s:
-	$(MAKE) -f CMakeFiles/1_READ_WRITE_POINT.dir/build.make CMakeFiles/1_READ_WRITE_POINT.dir/src/1_read_write.cpp.s
-.PHONY : src/1_read_write.cpp.s
-
-src/2_point_normals.o: src/2_point_normals.cpp.o
-
-.PHONY : src/2_point_normals.o
-
-# target to build an object file
-src/2_point_normals.cpp.o:
-	$(MAKE) -f CMakeFiles/2_point_normal.dir/build.make CMakeFiles/2_point_normal.dir/src/2_point_normals.cpp.o
-.PHONY : src/2_point_normals.cpp.o
-
-src/2_point_normals.i: src/2_point_normals.cpp.i
-
-.PHONY : src/2_point_normals.i
-
-# target to preprocess a source file
-src/2_point_normals.cpp.i:
-	$(MAKE) -f CMakeFiles/2_point_normal.dir/build.make CMakeFiles/2_point_normal.dir/src/2_point_normals.cpp.i
-.PHONY : src/2_point_normals.cpp.i
-
-src/2_point_normals.s: src/2_point_normals.cpp.s
-
-.PHONY : src/2_point_normals.s
-
-# target to generate assembly for a file
-src/2_point_normals.cpp.s:
-	$(MAKE) -f CMakeFiles/2_point_normal.dir/build.make CMakeFiles/2_point_normal.dir/src/2_point_normals.cpp.s
-.PHONY : src/2_point_normals.cpp.s
 
 src/3_PC_distortion_correction.o: src/3_PC_distortion_correction.cpp.o
 
@@ -238,15 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 2_point_normal"
 	@echo "... 3_PC_distortion_correction"
-	@echo "... 1_READ_WRITE_POINT"
-	@echo "... src/1_read_write.o"
-	@echo "... src/1_read_write.i"
-	@echo "... src/1_read_write.s"
-	@echo "... src/2_point_normals.o"
-	@echo "... src/2_point_normals.i"
-	@echo "... src/2_point_normals.s"
 	@echo "... src/3_PC_distortion_correction.o"
 	@echo "... src/3_PC_distortion_correction.i"
 	@echo "... src/3_PC_distortion_correction.s"

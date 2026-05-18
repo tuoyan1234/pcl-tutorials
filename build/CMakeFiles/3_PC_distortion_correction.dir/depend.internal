@@ -3,7 +3,7 @@
 
 CMakeFiles/3_PC_distortion_correction.dir/src/3_PC_distortion_correction.cpp.o
  ../include/1_read_write.h
- /home/kunlong/Desktop/libs-learn/pcl/pcl_tutorials/src/3_PC_distortion_correction.cpp
+ /home/kunlong/Desktop/点云畸变矫正/pcl-tutorials/src/3_PC_distortion_correction.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
